@@ -1,0 +1,45 @@
+﻿@model MVCGridDemo.Models.SchemeMaster
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@Convert.ToString(Session["Message"])</title>
+
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        <div class="form-horizontal">
+            <div class="form-group">
+                @Html.LabelFor(Sid => Sid.SchemeID)
+                @*<div class="col-md-4">*@
+                @Html.TextBoxFor(Sid => Sid.SchemeID)
+                @*</div>*@
+            </div>
+            <div class="form-group">
+                @*@{ var SchemeName = Model.SchemeName; }*@
+                <label asp-for="Sname.SchemeName">SchemeName</label>
+
+                @*<div class="col-md-4">*@
+                @Html.TextBoxFor(Sname => Sname.SchemeName)
+                @*</div>*@
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-4">
+                <input type="submit" value="Submit" class="btn btn-info" formaction="Create" for />
+            </div>
+        </div>
+        
+        <div>
+            @Html.Partial("MyPartialView")
+        </div>
+       
+    }
+</body>
+</html>

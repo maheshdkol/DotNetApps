@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="shortcut icon" href="#">
+    <script src="Scripts/jquery-3.6.0.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var ulWeather = $('#ulWeather');
+            $('#btnGetData').click(function () {
+
+
+                $.ajax({
+                    type: 'GET',
+                    url: 'https://localhost:44323/WeatherForecast/',
+                    dataType: 'json',
+                    headers: {
+                        'ApiKey': 'shdUgadcMda2de453TrW23Q'
+                    },
+                    success: function (data) {
+                        ulWeather.empty();
+                        $.each(data, function (index, val) {
+                            var WeatherDetails = 'Date = ' + val.date + ' Centigrade = ' + val.temperatureC + ' Fahrenheit = ' + val.temperatureF;
+                            ulWeather.append('<li>' + WeatherDetails + '</li>')
+                        });
+                    },
+                    complete: function (jqXHR) {
+                        if (jqXHR.status == '401') {
+                            ulWeather.empty();
+                            ulWeather.append('<li style="color:red">'
+                                + jqXHR.status + ' : ' + jqXHR.statusText + '</li>')
+                        }
+                    }
+                });
+            });
+
+        });
+    </script>
+</head>
+<body>
+    <input id="btnGetData" type="button" value="Get Weather" />
+    <ul id="ulWeather"></ul>
+</body>
+</html>

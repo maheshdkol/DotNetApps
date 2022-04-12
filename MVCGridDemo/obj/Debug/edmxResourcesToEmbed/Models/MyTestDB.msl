@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MyDBModelStoreContainer" CdmEntityContainer="MyDBEntities">
+    <EntitySetMapping Name="SchemeMasters">
+      <EntityTypeMapping TypeName="MyDBModel.SchemeMaster">
+        <MappingFragment StoreEntitySet="SchemeMaster">
+          <ScalarProperty Name="SchemeID" ColumnName="SchemeID" />
+          <ScalarProperty Name="SchemeName" ColumnName="SchemeName" />
+          <ScalarProperty Name="Createdby" ColumnName="Createdby" />
+          <ScalarProperty Name="Createddate" ColumnName="Createddate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

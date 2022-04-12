@@ -1,0 +1,13 @@
+D:\Mahesh\DotNetApps\Constructors\bin\Debug\netcoreapp3.1\Constructors.exe
+D:\Mahesh\DotNetApps\Constructors\bin\Debug\netcoreapp3.1\Constructors.deps.json
+D:\Mahesh\DotNetApps\Constructors\bin\Debug\netcoreapp3.1\Constructors.runtimeconfig.json
+D:\Mahesh\DotNetApps\Constructors\bin\Debug\netcoreapp3.1\Constructors.runtimeconfig.dev.json
+D:\Mahesh\DotNetApps\Constructors\bin\Debug\netcoreapp3.1\Constructors.dll
+D:\Mahesh\DotNetApps\Constructors\bin\Debug\netcoreapp3.1\Constructors.pdb
+D:\Mahesh\DotNetApps\Constructors\obj\Debug\netcoreapp3.1\Constructors.csprojAssemblyReference.cache
+D:\Mahesh\DotNetApps\Constructors\obj\Debug\netcoreapp3.1\Constructors.AssemblyInfoInputs.cache
+D:\Mahesh\DotNetApps\Constructors\obj\Debug\netcoreapp3.1\Constructors.AssemblyInfo.cs
+D:\Mahesh\DotNetApps\Constructors\obj\Debug\netcoreapp3.1\Constructors.csproj.CoreCompileInputs.cache
+D:\Mahesh\DotNetApps\Constructors\obj\Debug\netcoreapp3.1\Constructors.dll
+D:\Mahesh\DotNetApps\Constructors\obj\Debug\netcoreapp3.1\Constructors.pdb
+D:\Mahesh\DotNetApps\Constructors\obj\Debug\netcoreapp3.1\Constructors.genruntimeconfig.cache

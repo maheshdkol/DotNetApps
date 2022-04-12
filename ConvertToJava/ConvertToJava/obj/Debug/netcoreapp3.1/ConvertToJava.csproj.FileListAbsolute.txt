@@ -1,0 +1,13 @@
+D:\Mahesh\DotNetApps\ConvertToJava\ConvertToJava\obj\Debug\netcoreapp3.1\ConvertToJava.csprojAssemblyReference.cache
+D:\Mahesh\DotNetApps\ConvertToJava\ConvertToJava\obj\Debug\netcoreapp3.1\ConvertToJava.AssemblyInfoInputs.cache
+D:\Mahesh\DotNetApps\ConvertToJava\ConvertToJava\obj\Debug\netcoreapp3.1\ConvertToJava.AssemblyInfo.cs
+D:\Mahesh\DotNetApps\ConvertToJava\ConvertToJava\obj\Debug\netcoreapp3.1\ConvertToJava.csproj.CoreCompileInputs.cache
+D:\Mahesh\DotNetApps\ConvertToJava\ConvertToJava\bin\Debug\netcoreapp3.1\ConvertToJava.exe
+D:\Mahesh\DotNetApps\ConvertToJava\ConvertToJava\bin\Debug\netcoreapp3.1\ConvertToJava.deps.json
+D:\Mahesh\DotNetApps\ConvertToJava\ConvertToJava\bin\Debug\netcoreapp3.1\ConvertToJava.runtimeconfig.json
+D:\Mahesh\DotNetApps\ConvertToJava\ConvertToJava\bin\Debug\netcoreapp3.1\ConvertToJava.runtimeconfig.dev.json
+D:\Mahesh\DotNetApps\ConvertToJava\ConvertToJava\bin\Debug\netcoreapp3.1\ConvertToJava.dll
+D:\Mahesh\DotNetApps\ConvertToJava\ConvertToJava\bin\Debug\netcoreapp3.1\ConvertToJava.pdb
+D:\Mahesh\DotNetApps\ConvertToJava\ConvertToJava\obj\Debug\netcoreapp3.1\ConvertToJava.dll
+D:\Mahesh\DotNetApps\ConvertToJava\ConvertToJava\obj\Debug\netcoreapp3.1\ConvertToJava.pdb
+D:\Mahesh\DotNetApps\ConvertToJava\ConvertToJava\obj\Debug\netcoreapp3.1\ConvertToJava.genruntimeconfig.cache
